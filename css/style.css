@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding: 0px 10px;
+    position: fixed;
+    z-index: 10;
+    background-color: #131416;
+}
+
+.brand-logo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px
+}
+
+
+.nav_text {
+    font-family: 'Hepta Slab', serif;
+    font-size: 16px;
+}
+
+/*common style */
+.skill, .project, .blog{
+    margin:8% 0 0 0%;
+}
+/*About*/
+
+.about_me {
+    font-family: 'Hepta Slab', serif;
+    font-size: 30px;
+    color: rgb(225, 236, 68);
+    text-align: justify;
+    margin: 8% 0 0 0%;
+}
+
+/*Skill */
+
+.skill_text {
+    font-size: 24px;
+    border: 1px solid white;
+    color: rgb(226, 224, 70);
+}
+
+.project_table{
+  width:95%;
+   
+}
+h3 {
+    color: #ec4d4d;
+    ;
+    font-size: 50px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/*Scrollbar */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #21acdf;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0c1116;
+}
+
+/*Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(229, 241, 121);
+    color: rgb(212, 233, 91);
+    text-align: center;
+    z-index: 100 !important;
+}
+
+.footer_icons {
+    font-size: 40px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    color: #d65b70;
+}
