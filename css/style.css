@@ -10,7 +10,7 @@ nav {
     padding: 0px 10px;
     position: fixed;
     z-index: 10;
-    background-color: #131416;
+    background-color: hsl(214, 100%, 50%);
 }
 
 .brand-logo {
@@ -33,7 +33,7 @@ nav {
 .about_me {
     font-family: 'Hepta Slab', serif;
     font-size: 30px;
-    color: rgb(225, 236, 68);
+    color: black;
     text-align: justify;
     margin: 8% 0 0 0%;
 }
@@ -43,7 +43,7 @@ nav {
 .skill_text {
     font-size: 24px;
     border: 1px solid white;
-    color: rgb(226, 224, 70);
+    color: black;
 }
 
 .project_table{
@@ -51,7 +51,7 @@ nav {
    
 }
 h3 {
-    color: #ec4d4d;
+    color: #006DFF;
     ;
     font-size: 50px;
     font-family: 'Philosopher', sans-serif;
@@ -68,14 +68,14 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #21acdf;
+    background-color: #d6dee1;
     border-radius: 20px;
     border: 6px solid transparent;
     background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #0c1116;
+    background-color: #006DFF;
 }
 
 /*Footer */
@@ -85,8 +85,8 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(229, 241, 121);
-    color: rgb(212, 233, 91);
+    background-color: white;
+    color: white;
     text-align: center;
     z-index: 100 !important;
 }
@@ -95,5 +95,5 @@ h3 {
     font-size: 40px;
     padding-left: 2%;
     padding-bottom: 2%;
-    color: #d65b70;
+    color: #006DFF;
 }
