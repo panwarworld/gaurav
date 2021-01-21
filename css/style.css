@@ -10,7 +10,7 @@ nav {
     padding: 0px 10px;
     position: fixed;
     z-index: 10;
-    background-color: hsl(214, 100%, 50%);
+    background-color: hsl(352, 100%, 50%);
 }
 
 .brand-logo {
@@ -51,7 +51,7 @@ nav {
    
 }
 h3 {
-    color: #006DFF;
+    color: #ff1100;
     ;
     font-size: 50px;
     font-family: 'Philosopher', sans-serif;
@@ -75,7 +75,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #006DFF;
+    background-color: #f33326;
 }
 
 /*Footer */
@@ -95,5 +95,5 @@ h3 {
     font-size: 40px;
     padding-left: 2%;
     padding-bottom: 2%;
-    color: #006DFF;
+    color: #ee3e27;
 }
